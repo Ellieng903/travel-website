@@ -126,7 +126,7 @@ a {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(var(--clr-primary-9), rgba(0, 0, 0, 0.005)), url("./images/hero.png") center/cover no-repeat;
+    background: linear-gradient(var(--clr-primary-9), rgba(0, 0, 0, 0.005)), url("/images/hero.png") center/cover no-repeat;
     /* margin-top: 4rem; */
 }
 
@@ -221,102 +221,14 @@ a {
         Destinations
 =========================== */
 
-.destinations-cards {
-    display:flex;
-    flex-wrap: wrap;
-    gap:24px;
-    /* text-align: center; */
+.section-center.destinations-center {
     justify-content: space-between;
-    margin-top: 24px;
-    
-}
-
-.destinations-card {
-    position: relative;
-    width:200px;
-    height: auto;
-    border-radius: 14px; 
-    box-shadow: var(--dark-shadow);
-}
-
-.destinations-card:hover {
-    scale:1.1;
-    transition: var(--transition);
+    border: 1px solid red;
+    width: fit-content;
 }
 
 .destination-img {
-    width:100%;
+    width:200px;
+    height: 50%;
     border-radius: 14px;
-    display: block;
-    filter: brightness(70%);
-}
-
-.overlay {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 100;
-    transition: .5s ease;
-}
-
-.overlay h2 {
-    color: var(--clr-white);
-    font-size: 1.6rem;
-    text-shadow: var(--light-shadow);
-}
-
-
-/* ========================
-        Testimonials
-=========================== */
-
-.section#testimonials{
-    margin:0px;
-    width:100vw;
-    align-items: center;
-}
-
-.comment-card {
-    display: grid;
-    background: var(--clr-white);
-    box-shadow: var(--light-shadow);
-    border-radius: 11px;
-    width: auto;
-    height: auto;
-    padding: 15px 15px;
-    gap: 8px;
-    scale:0.9;
-}
-
-.fa-solid.fa-star {
-    color:#FFC320;
-
-}
-
-.comment-user-info{
-    column-gap: 8px;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-}
-
-.section-center.testimonials-center {
-    margin: 0;
-    width: 100vw;
-    background: url(./images/testimonials-backgound.png) center no-repeat;
-    padding: 0 150px;
-}
-
-.comment-cards {
-    display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    margin-top: 24px;
-
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
     <script src="https://unpkg.com/phosphor-icons"></script>
-    <link rel="icon" type="image/icon" href="./images/favicon.png">
+    <link rel="icon" type="image/icon" href="/images/favicon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -20,11 +20,11 @@
     <nav class="navbar">
         <div class="nav-logo">
             <a href="index.html">
-                <img src="./images/logo.svg" alt="logo" class="nav-logo">
+                <img src="/images/logo.svg" alt="logo" class="nav-logo">
             </a>
         </div>
         <!-- desktop -->
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
             <ul class="nav-list" id="nav-list">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="Destination.html" class="nav-link">Destination</a></li>
@@ -32,7 +32,12 @@
                 <li><a href="Contact_us.html" class="nav-link">Contact us</a></li>
             </ul>
         </div>
+        
+        <!-- mobile -->
+        <div class="mobile-menu-toggle" id="mobile-menu-toggle"><i class="ph ph-list"></i></div>
     </nav>
+    <!-- nav bar End -->
+
     <!-- Hero -->
     <section class="hero" id="home">
         <div class="hero-banner">
@@ -53,6 +58,8 @@
             </article>
         </div>
     </section>
+
+    
     <!-- Section2:Featured Destinations -->
     <section class="section" id="destination">
         <div class="section-title">
@@ -63,7 +70,7 @@
             <!-- Cards1 -->
             <div class="destinations-card">
                 <a href="#">
-                    <img src="/static page/Cards/Destinations-Cards1.png" alt="thailand" class="destination-img"
+                    <img src="./images/Cards/Destinations-Cards1.png" alt="thailand" class="destination-img"
                         id="thailand">
                 </a>
                 <div class="overlay">
@@ -73,7 +80,7 @@
             <!-- Cards 2 -->
             <div class="destinations-card">
                 <a href="#">
-                    <img src="/static page/Cards/Destinations-Cards2.png" alt="thailand" class="destination-img"
+                    <img src="./images/Cards/Destinations-Cards2.png" alt="thailand" class="destination-img"
                         id="Hong Kong">
                 </a>
                 <div class="overlay">
@@ -83,7 +90,7 @@
             <!-- Cards 3 -->
             <div class="destinations-card">
                 <a href="#">
-                    <img src="/static page/Cards/Destinations-Cards3.png" alt="thailand" class="destination-img"
+                    <img src="./images/Cards/Destinations-Cards3.png" alt="thailand" class="destination-img"
                         id="Korea">
                 </a>
                 <div class="overlay">
@@ -93,7 +100,7 @@
             <!-- Cards 4 -->
             <div class="destinations-card">
                 <a href="#">
-                    <img src="/static page/Cards/Destinations-Cards4.png" alt="thailand" class="destination-img"
+                    <img src="./images/Cards/Destinations-Cards4.png" alt="thailand" class="destination-img"
                         id="hong kong">
                 </a>
                 <div class="overlay">
@@ -102,12 +109,15 @@
             </div>
         </div>
     </section>
+
+
     <!-- Section2:Testimonials -->
     <section class="section" id="testimonials">
         <div class="section-title">
             <h3>Testimonials</h3>
             <p> from happy traveler</p>
         </div>
+        <!-- Carousel -->
         <div class="section-center testimonials-center">
             <div class="comment-cards">
                 <!-- Cards 1 -->
@@ -121,7 +131,7 @@
                     </div>
                     <div class="comment-title">
                         <h2 class="title">Unforgettable Japan Adventure</h2 class="title">
-                        <p>Our Japan trip was perfect, thanks to [Website Name]. From Tokyo to Kyoto, everything was
+                        <p>Our Japan trip was perfect, thanks to Travelust. From Tokyo to Kyoto, everything was
                             amazing!</p>
                     </div>
                     <div class="comment-user-info">
@@ -140,7 +150,7 @@
                     </div>
                     <div class="comment-title">
                         <h2 class="title">A Romantic Getaway in Hong Kong</h2 class="title">
-                        <p>Planned a surprise trip to Hong Kong with [Website Name]. It was magical and so easy to
+                        <p>Planned a surprise trip to Hong Kong with Travelust. It was magical and so easy to
                             organize!</p>
                     </div>
                     <div class="comment-user-info">
@@ -159,7 +169,7 @@
                     </div>
                     <div class="comment-title">
                         <h2 class="title">Solo Travel Made Easy in Thailand</h2 class="title">
-                        <p>As a solo traveler, [Website Name] was my go-to for my Thailand trip. Super helpful and
+                        <p>As a solo traveler, Travelust was my go-to for my Thailand trip. Super helpful and
                             informative!</p>
                     </div>
                     <div class="comment-user-info">
@@ -167,7 +177,7 @@
                         <p>Sarah L. from New York, USA</p>
                     </div>
                 </div>
-                <!-- Cards 4 -->
+                <!-- Card4 -->
                 <div class="comment-card">
                     <div class="start-icon">
                         <i class="fa-solid fa-star"></i>
@@ -178,7 +188,7 @@
                     </div>
                     <div class="comment-title">
                         <h2 class="title">Family Fun in Singapore</h2 class="title">
-                        <p>Our family loved Singapore, thanks to [Website Name]. The kids had a blast, and everything
+                        <p>Our family loved Singapore, thanks to Travelust. The kids had a blast, and everything
                             was well-planned!</p>
                     </div>
                     <div class="comment-user-info">
@@ -197,7 +207,7 @@
                     </div>
                     <div class="comment-title">
                         <h2 class="title">Enhanced Korean Tour Experience</h2 class="title">
-                        <p>Found great tips on [Website Name] for my South Korea tour. It made my trip so much better!
+                        <p>Found great tips on Travelust for my South Korea tour. It made my trip so much better!
                         </p>
                     </div>
                     <div class="comment-user-info">
@@ -216,7 +226,7 @@
                     </div>
                     <div class="comment-title">
                         <h2 class="title">Amazing Thailand Experience</h2>
-                        <p>Thanks to [Website Name], our Thailand trip was seamless and unforgettable. The beaches,
+                        <p>Thanks to Travelust, our Thailand trip was seamless and unforgettable. The beaches,
                             food, and culture were incredible!</p>
                     </div>
                     <div class="comment-user-info">
@@ -226,6 +236,8 @@
                 </div>
             </div>
         </div>
+        </section>
+
         <!-- Footer -->
 
         <footer class="footer">
@@ -239,9 +251,9 @@
                 </div>
                 <div class="newsletter">
                     <input type="email" id="email" name="email" placeholder="example@email.com">
-                    <button class="btn btn-submit" type="submit" id="submit">Submit</button>
+                    <button class=" btn-submit" type="submit" id="submit">Submit</button>
                 </div>
-                <p class="copyright-tag">© 2024 [Website Name]. All rights reserved</p>
+                <p class="copyright-tag">© 2024 Travelust. All rights reserved</p>
             </div>
             <!-- footer right side -->
             <div class="footer-links">
@@ -254,14 +266,15 @@
             </div>
             <div class="footer-info-list">
                 <ul class="footer-info">
-                    <li>Email: info@[yourwebsite].com</li>
-                    <li>Phone: +852 92685797</li>
-                    <li>Address: 8F,Wong Tze Building,71 Hoi Yuen Road, Kwun Tong, Kowloon, Hong Kong</li>
+                    <li><i class="ph ph-envelope"></i> info@[yourwebsite].com</li>
+                    <li><i class="ph ph-phone"></i> +852 92685797</li>
+                    <li><i class="ph ph-map-pin"></i> 8F,Wong Tze Building,71 Hoi Yuen Road, Kwun Tong, Kowloon, Hong Kong</li>
                     </ulc>
-            </div>
+            </div> 
         </footer>
 
-
+        <script src="mobile-menu.js"></script>
+        
 </body>
 
 </html>
