@@ -126,7 +126,7 @@ a {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(var(--clr-primary-9), rgba(0, 0, 0, 0.005)), url("./images/hero.png") center/cover no-repeat;
+    background: linear-gradient(var(--clr-primary-9), rgba(0, 0, 0, 0.005)), url("/images/hero.png") center/cover no-repeat;
     /* margin-top: 4rem; */
 }
 
