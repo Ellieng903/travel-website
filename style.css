@@ -138,10 +138,10 @@ a {
         align-items: center;
         z-index: 100;
         width: 100%;
+        padding: 35px 30px;
     }
 
     .nav-links {
-        /* overflow: hidden; */
         opacity: 0;
         background: var(--clr-primary-8);
         width: 100%;
@@ -195,7 +195,7 @@ a {
 =========================== */
 
 .footer {
-    margin: 150px;
+    margin: 50px 130px 50px 130px;
     display: grid;
     grid-template-columns: 40% 30% 30%;
 }
@@ -296,7 +296,7 @@ p.copyright-tag {
     .footer{
         display:flex;
         flex-direction: column;
-        margin:80px 50px 50px 40px;
+        margin:80px 50px 50px 50px;
         gap:30px;
         justify-content: left;
         align-items: left;
@@ -345,7 +345,7 @@ Global Setting End
     display: flex;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(var(--clr-primary-9), rgba(0, 0, 0, 0.005)), url("./images/hero.png") center/cover no-repeat;
+    background: linear-gradient(var(--clr-primary-9), rgba(0, 0, 0, 0.005)), url("images/hero.png") center/cover no-repeat;
     /* margin-top: 4rem; */
 }
 

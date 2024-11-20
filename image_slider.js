@@ -4,12 +4,12 @@ let prev = document.getElementById('prev');
 let thumbnails =document.querySelectorAll('.thumbnail .item')
 
 
-let countItem =item.length;
+let countItem =items.length;
 let itemActive = 0;
 
 next.onclick = function() {
     itemActive = itemActive +1 ;
-    if(itemActive >= countOtem) {
+    if(itemActive >= countItem) {
         itemActive = 0;
     }
     showSlider();
@@ -27,7 +27,7 @@ prev.onclick = function() {
 // auto run slider 
 let refreshInterval = setInterval(() => {
     next.click();
-},3000)
+},10000)
 
 
 
@@ -54,7 +54,7 @@ function showSlider() {
 //click thumbnail
 
 thumbnails.forEach((thumbnail,index) => {
-    thumbnail.addEventListener('click' () => {
+    thumbnail.addEventListener('click' ,() => {
         itemActive = index;
         showSlider();
     })
