@@ -123,8 +123,8 @@ a {
 
 @media (min-width: 769px) {
     .nav-link:hover {
-        color: var(--clr-primary-3);
-        border-bottom: 1px solid var(--clr-white);
+        color: var(--clr-primary-9);
+        border-bottom: 1px solid var(--clr-primary-9);
     }
 }
 

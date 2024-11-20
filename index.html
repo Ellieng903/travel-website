@@ -28,7 +28,7 @@
             <ul class="nav-list" id="nav-list">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="destination.html" class="nav-link">Destination</a></li>
-                <li><a href="itinerary.html" class="nav-link">Itineraries</a></li>
+                <li><a href="itinerary_hk.html" class="nav-link">Itineraries</a></li>
             </ul>
         </div>
         
@@ -249,29 +249,32 @@
                         your inbox.</p>
                 </div>
                 <div class="newsletter">
-                    <input type="email" id="email" name="email" placeholder="example@email.com">
-                    <button class=" btn-submit" type="submit" id="submit">Submit</button>
+                    <form>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required> 
+                        <button class="btn-submit" type="submit" id="submit">Submit</button>
+                    </form>
                 </div>
-                <p class="copyright-tag">© 2024 Travelust. All rights reserved</p>
+                <p class="thankyou-message">thank you for your subcribe!</p>
+                <p class="copyright-tag">© <span id="date"></span> Travelust. All rights reserved</p>
             </div>
             <!-- footer right side -->
             <div class="footer-links">
                 <ul class="footer-link">
-                    <li><a href="#home" class="footer-link">Home</a></li>
-                    <li><a href="Destination.html" class="footer-link">Destination</a></li>
-                    <li><a href="Itineraries.html" class="footer-link">Itineraries</a></li>
-                    <li><a href="Contact_us.html" class="footer-link">Contact us</a></li>
+                    <li><a href="index.html" class="footer-link">Home</a></li>
+                    <li><a href="destination.html" class="footer-link">Destination</a></li>
+                    <li><a href="itinerary_hk.html" class="footer-link">Itineraries</a></li>
                 </ul>
             </div>
             <div class="footer-info-list">
                 <ul class="footer-info">
-                    <li><i class="ph ph-envelope"></i> info@[yourwebsite].com</li>
+                    <li><i class="ph ph-envelope"></i> info@travelust.com</li>
                     <li><i class="ph ph-phone"></i> +852 92685797</li>
                     <li><i class="ph ph-map-pin"></i> 8F,Wong Tze Building,71 Hoi Yuen Road, Kwun Tong, Kowloon, Hong Kong</li>
                     </ulc>
             </div> 
         </footer>
 
+        <script src="form.js"></script>
         <script src="mobile-menu.js"></script>
         
 </body>
