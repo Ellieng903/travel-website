@@ -198,7 +198,7 @@ a {
 =========================== */
 
 .footer {
-    margin: 150px;
+    margin: 70px 130px 20px 130px;
     display: grid;
     grid-template-columns: 40% 30% 30%;
 }
@@ -225,7 +225,7 @@ a {
 }
 
 input#email {
-    padding: 12px 160px 12px 10px;
+    padding: 12px 100px 12px 10px;
     border: 1px solid var(--clr-gray-3);
     border-radius: 8px;
 }
@@ -252,7 +252,6 @@ p.copyright-tag {
 .footer-links {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .footer-link {
@@ -261,12 +260,12 @@ p.copyright-tag {
     gap: 20px;
     color: var(--clr-gray-10);
     font-weight: bold;
+    max-height:198px;
 }
 
 .footer-info-list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .footer-info {
@@ -288,9 +287,17 @@ p.copyright-tag {
     color:var(--clr-primary-8);
 }
 
-.ph {
+.footer i {
     color:var(--clr-primary-8);
     font-size: 1.2rem;
+}
+
+.thankyou-message {
+    color:var(--clr-primary-8);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top:5px;
+    display:none;
 }
 
 
@@ -299,7 +306,7 @@ p.copyright-tag {
     .footer{
         display:flex;
         flex-direction: column;
-        margin:80px 50px 50px 40px;
+        margin:80px 50px 50px 50px;
         gap:30px;
         justify-content: left;
         align-items: left;
@@ -333,9 +340,9 @@ p.copyright-tag {
         justify-content: left;
         align-items: left;;
     }
+
 }
 
 /* ========================
 Global Setting End
 =========================== */
-
