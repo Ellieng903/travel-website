@@ -659,6 +659,47 @@ h2.title {
 }
 
 
+
+.explore-button {
+    margin: 30px 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .btn.explore {
+        border: 1px solid var(--clr-primary-8);
+        border-radius: 40px;
+        padding: 12px 32px;
+        align-items: center;
+        display: flex;
+    }
+
+    .btn.explore:hover {
+        color: var(--clr-white);
+        border-radius: 40px;
+        padding: 12px 32px;
+        align-items: center;
+        display: flex;
+        background: var(--clr-primary-8);
+
+        .ph.ph-arrow-right {
+            color: var(--clr-white);
+        }
+
+    }
+
+    .ph.ph-arrow-right {
+        color: var(--clr-primary-8);
+    }
+
+}
+
+a.btn.explore {
+    text-decoration: none;
+    color: var(--clr-primary-8);
+}
+
+
 @media (max-width:950px) {
     .comment-cards {
         display: grid;
